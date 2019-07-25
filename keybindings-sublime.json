@@ -69,4 +69,6 @@
   },
   // Unindent
   { "keys": ["shift+tab"], "command": "unindent" },
+	// Auto code block markdown - ``` ```
+  { "keys": ["ctrl+<"], "command": "insert_snippet", "args": {"contents": "```\u000A```"}}
 ]
