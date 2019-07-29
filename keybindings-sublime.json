@@ -70,5 +70,7 @@
   // Unindent
   { "keys": ["shift+tab"], "command": "unindent" },
 	// Auto code block markdown - ``` ```
-  { "keys": ["ctrl+<"], "command": "insert_snippet", "args": {"contents": "```\u000A```"}}
+  { "keys": ["super+<"], "command": "insert_snippet", "args": {"contents": "```\u000A```"}},
+	// Non-breaking space HTML entity
+  { "keys": ["super+space"], "command": "insert_snippet", "args": {"contents": "&nbsp;"}}
 ]
