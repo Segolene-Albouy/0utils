@@ -72,5 +72,7 @@
 	// Auto code block markdown - ``` ```
   { "keys": ["super+<"], "command": "insert_snippet", "args": {"contents": "```\u000A```"}},
 	// Non-breaking space HTML entity
-  { "keys": ["super+space"], "command": "insert_snippet", "args": {"contents": "&nbsp;"}}
+  { "keys": ["super+space"], "command": "insert_snippet", "args": {"contents": "&nbsp;"}},
+	// Minimal template HTML page
+  { "keys": ["super+shift+h"], "command": "insert_snippet", "args": {"contents": "<!doctype html>\u000A<html lang='en'>\u000A\u0009<head>\u000A\u0009\u0009<meta charset='utf-8'>\u000A\u0009\u0009<title></title>\u000A\u0009\u0009<link rel='stylesheet' href=''>\u000A\u0009\u0009<script src=''></script>\u000A\u0009</head>\u000A\u0009<body></body>\u000A</html>"}}
 ]
