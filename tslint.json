@@ -41,7 +41,7 @@
     "max-classes-per-file": false,
     "max-line-length": [
       true,
-      140
+      200
     ],
     "member-ordering": [
       true,
@@ -80,11 +80,7 @@
       true,
       "single"
     ],
-    "semicolon": {
-      "options": [
-        "always"
-      ]
-    },
+    "semicolon": [true, "always", "ignore-bound-class-methods"],
     "space-before-function-paren": {
       "options": {
         "anonymous": "never",
